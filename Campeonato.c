@@ -1,31 +1,27 @@
 #include <stdio.h>
 
 int main() {
-	int Cv, Ce, Cs, Fv, Fe, Fs;
+	int Cv, Ce, Cs, Fv, Fe, Fs, Ct, Ft;
 	
-	scanf("%d%d%d%d%d%d", &Ce, &Cv, &Cs, &Fv, &Fe, &Fs);
+	scanf("%d %d %d %d %d %d", &Cv, &Ce, &Cs, &Fv, &Fe, &Fs);
 	
-	Cv=Cv*3;
-	Fv=Fv*3;
+	Ct=(Cv*3)+Ce;
+	Ft=(Fv*3)+Fe;
 	
-	if(Cv+Ce>Fv+Fe)
+	if(Ct>Ft)
 	printf("C");
 	
-	else if(Cv+Ce<Fv+Fe)
+	else if(Ft>Ct)
 	printf("F");
-	
-	else if(Cv+Ce==Fv+Fe) {
-		if(Cs>Fs)
-		printf("C");
-		
-		else if(Cs<Fs)
-		printf("F");
-		
-		else if(Cs==Fs)
-		printf("=");
+		    
+	else {
+	if(Cs>Fs)
+	printf("C");
+	else if(Fs>Cs)
+	printf("F");
+		            
+	else if(Ct==Ft&&Cs==Fs)
+	printf("=");
 	}
-	
-    
 	return 0;
 }
-

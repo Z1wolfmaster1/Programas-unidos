@@ -2,37 +2,43 @@
 #include <math.h>
 
 int main() {
-	int x, i, r, teste;
-	
+	int x, i, c=0;
+	 
 	inicio:
 		scanf("%d", &x);
 			
-		switch(x) {
-			case -1:
-				break;
-				
-			case 1:
-				printf("0\n");
-				goto inicio;
-				break;
-	default:
-		r = sqrt(x) + 1; 
-
-  if (x % 2 == 0) 
-          teste = 1; 
-  else{ 
-      for (i = 3 ; i < r; i+=2) 
-        if (x % i == 0) 
-          teste = 1; 
-  } 
-  if (!teste) 
-          printf ("1\n"); 
-  else 
-          printf ("0\n");
-
-			goto inicio;
-		    break;
-}
+		if(x==-1)
+		printf("");
 		
+		else{
+			if(x==1){
+			printf("0\n");
+			goto inicio;
+			}
+			
+			else{
+				if(x>1){
+			for (i=1; i<=x; i++) {
+            
+            if (x % i == 0) c++;    
+        }
+        
+        
+        if (c == 2)
+        {
+           printf("1\n");
+           c=0;
+		   goto inicio;             
+        }
+        else
+        {
+            printf("0\n");
+            c=0;
+			goto inicio;    
+        }
+			}
+		}
+	}
+				
 	return 0;
 }
