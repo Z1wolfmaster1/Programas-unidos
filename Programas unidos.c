@@ -4,7 +4,7 @@
 #include <math.h>
 #include <string.h>
 
-//Prototipos de função
+//Prototipos de funÃ§Ã£o
 void z();
 void m();
 void login();
@@ -42,17 +42,17 @@ void eleicao7();
 void eleicao71();
 void eleicao8();
 
-int main() { //Função principal
+int main() { //FunÃ§Ã£o principal
 	setlocale(LC_ALL,"");
 	int n, d, v=0;
 	
-	while(d!=2) { //Laço de repetição da função principal
+	while(d!=2) { //LaÃ§o de repetiÃ§Ã£o da funÃ§Ã£o principal
     printf("Z:\\\n\n1. The huxley\n\n2. Sala de aula\n\nEscolha: ");
 	scanf("%d", &n);
 	
 	if(n==1) {
 	system("cls");
-	printf("Z:\\The huxley\n\n1. Acidez de uma solução\n\n2. Algarismo da casa das unidades\n\n3. Alugando um carro\n\n4. Ano bissexto\n\n5. Apresentação\n\n6. Aprovação\n\n7. Area\n\n8. As duas strings\n\n9. Aumento dos Trabalhadores\n\n10. Biblioteca\n\n11. Bombons\n\n12. Brinquedos do Parque\n\n13. Busca na internet\n\n14. Calculo simples\n\n15. Campeonato\n\n16. Classificação no Mundial\n\n17. Comparador de Números Inteiros\n\n18. Conceito MEC\n\n19. Divisivel por três\n\n20. Notas em ordem crescente\n\n21. Pneu\n\nEscolha: ");
+	printf("Z:\\The huxley\n\n1. Acidez de uma soluÃ§Ã£o\n\n2. Algarismo da casa das unidades\n\n3. Alugando um carro\n\n4. Ano bissexto\n\n5. ApresentaÃ§Ã£o\n\n6. AprovaÃ§Ã£o\n\n7. Area\n\n8. As duas strings\n\n9. Aumento dos Trabalhadores\n\n10. Biblioteca\n\n11. Bombons\n\n12. Brinquedos do Parque\n\n13. Busca na internet\n\n14. Calculo simples\n\n15. Campeonato\n\n16. ClassificaÃ§Ã£o no Mundial\n\n17. Comparador de NÃºmeros Inteiros\n\n18. Conceito MEC\n\n19. Divisivel por trÃªs\n\n20. Notas em ordem crescente\n\n21. Pneu\n\nEscolha: ");
 	scanf("%d", &n);
 	
 	if(n==1) {
@@ -163,7 +163,7 @@ int main() { //Função principal
 	
 	else if(n==2) {
 	system("cls");
-	printf("Z:\\Sala de aula\n\n1. Zerinho ou um\n\n2. Mariana\n\n3. Login\n\n4. Cinco patinhos\n\n5. Eleição\n\nEscolha: ");
+	printf("Z:\\Sala de aula\n\n1. Zerinho ou um\n\n2. Mariana\n\n3. Login\n\n4. Cinco patinhos\n\n5. EleiÃ§Ã£o\n\nEscolha: ");
 	scanf("%d", &n);
 	
 	if(n==1) {
@@ -189,13 +189,13 @@ int main() { //Função principal
 	else if(n==5) {
 		system("cls");
 		if(v==0) {
-			printf("Z:\\Sala de aula\\Eleição\n\nAqui você pode ver todas as versões do programa Eleição,\nproduzido por Marcos Vinícius e Luiz Gabriel.\n\n");
+			printf("Z:\\Sala de aula\\EleiÃ§Ã£o\n\nAqui vocÃª pode ver todas as versÃµes do programa EleiÃ§Ã£o,\nproduzido por Marcos VinÃ­cius e Luiz Gabriel.\n\n");
 		    system("pause");
 		    system("cls");
 		    v++;
 		}
 		
-		printf("Z:\\Sala de aula\\Eleição\n\n1. Eleição v1.0\n\n2. Eleição v2.0\n\n3. Eleição v3.0\n\n4. Eleição v4.0\n\n5. Eleição v5.0\n\n6. Eleição v6.0\n\n7. Eleição v7.0\n\n8. Eleição v7.1\n\n9. Eleição v8.0\n\nEscolha: ");
+		printf("Z:\\Sala de aula\\EleiÃ§Ã£o\n\n1. EleiÃ§Ã£o v1.0\n\n2. EleiÃ§Ã£o v2.0\n\n3. EleiÃ§Ã£o v3.0\n\n4. EleiÃ§Ã£o v4.0\n\n5. EleiÃ§Ã£o v5.0\n\n6. EleiÃ§Ã£o v6.0\n\n7. EleiÃ§Ã£o v7.0\n\n8. EleiÃ§Ã£o v7.1\n\n9. EleiÃ§Ã£o v8.0\n\nEscolha: ");
 		scanf("%d", &n);
 		
 		if(n==1) {
@@ -252,10 +252,10 @@ int main() { //Função principal
 	}
 	
 	else {
-		printf("\nDiretório inexistente\n\n");
+		printf("\nDiretÃ³rio inexistente\n\n");
 		system("pause");
 		system("cls");
-		continue; //Faz o laço de repetição voltar ao inicio
+		continue; //Faz o laÃ§o de repetiÃ§Ã£o voltar ao inicio
 	}
 	printf("\n");
 	system("pause");
@@ -270,7 +270,7 @@ int main() { //Função principal
 	return 0;
 }
 
-void z() { //Função auxiliar
+void z() { //FunÃ§Ã£o auxiliar
 	int a=0,b=0,c=0,t=0;
 	
 	while(a>-1&&b>-1&&c>-1&&a<2&&b<2&&c<2) {
@@ -294,7 +294,7 @@ void z() { //Função auxiliar
     printf("\nTentativas: %d", t);
 }
 
-void m() { //Função auxiliar
+void m() { //FunÃ§Ã£o auxiliar
 	setlocale(LC_ALL,"");
 	int i, e, j;
 	printf("Quanto conta Mariana: ");
@@ -303,13 +303,13 @@ void m() { //Função auxiliar
 	for(i=1; i<=e; i++) {
 		printf("Mariana conta %d\nMariana conta %d: ", i, i);
 		for(j=1;j<=i; j++) {
-			printf("é %d, ",j);
+			printf("Ã© %d, ",j);
 		}
-		printf("é!\nAna Viva Mariana, viva a Mariana\n");
+		printf("Ã©!\nAna Viva Mariana, viva a Mariana\n");
 	}
 }
 
-void login() { //Função auxiliar
+void login() { //FunÃ§Ã£o auxiliar
 	setlocale(LC_ALL,"");
 	char s[100], sc[100]="laranja", l[100], lc[100]="Eduardo";
 	
@@ -324,7 +324,7 @@ void login() { //Função auxiliar
 	    else {
 	    	system("CLS");
 		    while(strcmp(s,sc)!=0) {
-	        printf("Olá senhor Eduardo, digite sua senha.\n\nSenha: ");
+	        printf("OlÃ¡ senhor Eduardo, digite sua senha.\n\nSenha: ");
 	        scanf("%s", s);
 	        if(strcmp(s,sc)==0)
 	        printf("\n\nAcesso Concedido.");
@@ -339,7 +339,7 @@ void login() { //Função auxiliar
 	}
 }
 
-void patinhos() { //Função auxiliar
+void patinhos() { //FunÃ§Ã£o auxiliar
 	int p, i;
 	printf("Quantos patinhos foram passear: ");
 	scanf("%d", &p);
@@ -355,7 +355,7 @@ void patinhos() { //Função auxiliar
 
 }
 
-void acidez() { //Função auxiliar
+void acidez() { //FunÃ§Ã£o auxiliar
 	int x;
 	
 	scanf("%d", &x);
@@ -369,7 +369,7 @@ void acidez() { //Função auxiliar
 	else
 	printf("Basica");
 }
-void alugando() { //Função auxiliar
+void alugando() { //FunÃ§Ã£o auxiliar
 	float v, d, q;
 	
 	scanf("%f\n%f", &d, &q);
@@ -384,7 +384,7 @@ void alugando() { //Função auxiliar
 		printf("%.2f", v);
 	}
 }
-void ano() { //Função auxiliar
+void ano() { //FunÃ§Ã£o auxiliar
 	int an, a1, a2, i, j, x[10000];
 	
 	scanf("%d%d", &a1, &a2);
@@ -402,7 +402,7 @@ void ano() { //Função auxiliar
     	printf("%d\n", x[i]);
 }
 }
-void apresentacao() { //Função auxiliar
+void apresentacao() { //FunÃ§Ã£o auxiliar
 	int x[100], i;
 	
 	for(i=0;i<5;i++) {
@@ -415,14 +415,14 @@ void apresentacao() { //Função auxiliar
     else
     printf("0");
 }
-void bombons() { //Função auxiliar
+void bombons() { //FunÃ§Ã£o auxiliar
 	float ap, cp, pp, aq, cq, pq, v;
 	
 	scanf("%f\n%f\n%f\n%f\n%f\n%f", &ap, &cp, &pp, &aq, &cq, &pq);
 	v=ap*aq+cp*cq+pp*pq;
 	printf("\nValor: R$%.2f", v);
 }
-void brinquedos() { //Função auxiliar
+void brinquedos() { //FunÃ§Ã£o auxiliar
 	int a, i;
 	
 	scanf("%d%d", &a, &i);
@@ -439,7 +439,7 @@ void brinquedos() { //Função auxiliar
 	else
 	printf("0");
 }
-void campeonato() { //Função auxiliar
+void campeonato() { //FunÃ§Ã£o auxiliar
 	int Cv, Ce, Cs, Fv, Fe, Fs;
 	
 	scanf("%d%d%d%d%d%d", &Ce, &Cv, &Cs, &Fv, &Fe, &Fs);
@@ -464,7 +464,7 @@ void campeonato() { //Função auxiliar
 		printf("=");
 	}
 }
-void mundial() { //Função auxiliar
+void mundial() { //FunÃ§Ã£o auxiliar
 	int p[6], pf=0, i;
 	
 	for(i=0; i<6; i++) {
@@ -478,7 +478,7 @@ void mundial() { //Função auxiliar
 	else
 	printf("Classificado");
 }
-void comparador() { //Função auxiliar
+void comparador() { //FunÃ§Ã£o auxiliar
 	int x, y;
 	
 	scanf("%d%d", &x, &y);
@@ -519,30 +519,27 @@ void comparador() { //Função auxiliar
 	else
 	printf("0\n");
 }
-void conceito() { //Função auxiliar
+void conceito() { //FunÃ§Ã£o auxiliar
 	double a, l;
 	
 	scanf("%lf\n%lf", &a, &l);
 	
 	if((a/l)==(1/1)||(a/l)==(1/2)||(a/l)==(1/3)||(a/l)==(1/4)||(a/l)==(1/5)||(a/l)==(1/6)||(a/l)==(1/7)||(a/l)==(1/8)) {
 	printf("A");
-	return 0;
 	}
 	
 	else if(a/l==(1/9)||(a/l)==(1/10)||(a/l)==(1/11)||(a/l)==(a/l)==(1/12)) {
 	printf("B");
-	return 0;
 	}
 	
 	else if(a/l==(1/13)||(a/l)==(1/14)||(a/l)==(1/15)||(a/l)==(1/16)||(a/l)==(1/17)||(a/l)==(1/18)) {
 	printf("C");
-	return 0;
 	}
 	
 	else
 	printf("D");
 }
-void divisivel() { //Função auxiliar
+void divisivel() { //FunÃ§Ã£o auxiliar
 	int n, i, d=0;
 	
 	scanf("%d", &n);
@@ -558,7 +555,7 @@ void divisivel() { //Função auxiliar
     else
     printf("%d", d);
 }
-void notas() { //Função auxiliar
+void notas() { //FunÃ§Ã£o auxiliar
 	int a,b,c,x;
 	
 	scanf("%d%d%d",&a,&b,&c);
@@ -578,7 +575,7 @@ void notas() { //Função auxiliar
 	if( b<c ) printf("%d\n%d\n%d", a, b, c);
 	else printf("%d\n%d\n%d", a, c, b);
 }
-void pneu() { //Função auxiliar
+void pneu() { //FunÃ§Ã£o auxiliar
 	int x, y;
 	
 	scanf("%d\n%d", &x, &y);
@@ -586,7 +583,7 @@ void pneu() { //Função auxiliar
 	printf("%d", x-y);
 }
 
-void eleicao71() { //Função auxiliar
+void eleicao71() { //FunÃ§Ã£o auxiliar
 	setlocale(LC_ALL,"");
 	int n, cpf, br=0, a=0, b=0, c=0, cpfi[100000], x=0, i, v;
 	
@@ -611,13 +608,13 @@ void eleicao71() { //Função auxiliar
 	    cpfi[x]=cpf;
         
 		if(v==1) {
-		printf("\nCPF válido.\n\n");
+		printf("\nCPF vÃ¡lido.\n\n");
 		system("pause");
 		system("CLS");
 		
 		while(n>-1) {
-		printf("Para votar no candidato A, digite 1 e dê Enter..\n\nPara votar no candidato B, digite 2 e dê Enter..\n\nPara votar no candidato C, digite 3 e dê Enter..\n\nPara votar em Branco, digite 0 e dê Enter..\n\n");
-		printf("\nNúmero: ");
+		printf("Para votar no candidato A, digite 1 e dÃª Enter..\n\nPara votar no candidato B, digite 2 e dÃª Enter..\n\nPara votar no candidato C, digite 3 e dÃª Enter..\n\nPara votar em Branco, digite 0 e dÃª Enter..\n\n");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		
 		if(n==1) {
@@ -653,7 +650,7 @@ void eleicao71() { //Função auxiliar
 		}
 		
 		else if(n>3||n<-1) {
-			printf("\nNúmero inválido\n\n");
+			printf("\nNÃºmero invÃ¡lido\n\n");
 			goto inicio;
 		}
 		system("pause");
@@ -681,8 +678,8 @@ void eleicao71() { //Função auxiliar
 			system("CLS");
 			
 			while(n>-1) {
-			printf("Para votar no candidato A, digite 1 e dê Enter..\n\nPara votar no candidato B, digite 2 e dê Enter..\n\nPara votar em Branco, digite 0 e dê Enter.\n\n");
-			printf("\nNúmero: ");
+			printf("Para votar no candidato A, digite 1 e dÃª Enter..\n\nPara votar no candidato B, digite 2 e dÃª Enter..\n\nPara votar em Branco, digite 0 e dÃª Enter.\n\n");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==1){
@@ -704,7 +701,7 @@ void eleicao71() { //Função auxiliar
 			}
 			
 			else if (n>3||n<-1) {
-				printf("\nNúmero inválido\n\n");
+				printf("\nNÃºmero invÃ¡lido\n\n");
 				system("pause");
 				system("CLS");
 			}
@@ -721,8 +718,8 @@ void eleicao71() { //Função auxiliar
 		
 		else {
 		inicio1:
-		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dê Enter.\n\nPara escolher o candidato B, digite 2 e dê Enter.\n\n");
-		printf("\nNúmero: ");
+		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dÃª Enter.\n\nPara escolher o candidato B, digite 2 e dÃª Enter.\n\n");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		system("cls");
 			
@@ -751,8 +748,8 @@ void eleicao71() { //Função auxiliar
 			system("CLS");
 			
 			while(n>-1) {
-			printf("Para votar no candidato A, digite 1 e dê Enter.\n\nPara votar no candidato B, digite 2 e dê Enter.\n\nPara votar em Branco, digite 0 e dê Enter.\n\n");
-			printf("\nNúmero: ");
+			printf("Para votar no candidato A, digite 1 e dÃª Enter.\n\nPara votar no candidato B, digite 2 e dÃª Enter.\n\nPara votar em Branco, digite 0 e dÃª Enter.\n\n");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==1) {
@@ -774,7 +771,7 @@ void eleicao71() { //Função auxiliar
 			}
 			
 			else if (n>3||n<-1) {
-				printf("\nNúmero inválido\n\n");
+				printf("\nNÃºmero invÃ¡lido\n\n");
 				system("pause");
 		        system("CLS");				
 			}
@@ -793,8 +790,8 @@ void eleicao71() { //Função auxiliar
 		
 		else {
 		inicio2:
-		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dê Enter.\n\nPara escolher o candidato B, digite 2 e dê Enter.\n\n");
-		printf("\nNúmero: ");
+		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dÃª Enter.\n\nPara escolher o candidato B, digite 2 e dÃª Enter.\n\n");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		system("cls");
 			
@@ -823,8 +820,8 @@ void eleicao71() { //Função auxiliar
 			system("CLS");
 			
 			while(n>-1) {
-			printf("Para votar no candidato A, digite 1 e dê Enter.\n\nPara votar no candidato C, digite 3 e dê Enter.\n\nPara votar em Branco, digite 0 e dê Enter.\n\n");
-			printf("\nNúmero: ");
+			printf("Para votar no candidato A, digite 1 e dÃª Enter.\n\nPara votar no candidato C, digite 3 e dÃª Enter.\n\nPara votar em Branco, digite 0 e dÃª Enter.\n\n");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==1) {
@@ -840,7 +837,7 @@ void eleicao71() { //Função auxiliar
 			}
 			
 			else if (n>3||n<-1) {
-				printf("\nNúmero inválido\n\n");
+				printf("\nNÃºmero invÃ¡lido\n\n");
 			}
 			
 			system("pause");
@@ -857,8 +854,8 @@ void eleicao71() { //Função auxiliar
 		
 		else {
 		inicio3:
-		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dê Enter.\n\nPara escolher o candidato C, digite 3 e dê Enter.\n\n");
-		printf("\nNúmero: ");
+		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dÃª Enter.\n\nPara escolher o candidato C, digite 3 e dÃª Enter.\n\n");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		system("cls");
 			
@@ -887,8 +884,8 @@ void eleicao71() { //Função auxiliar
 			system("CLS");
 			
 			while(n>-1) {
-			printf("Para votar no candidato A, digite 1 e dê Enter.\n\nPara votar no candidato C, digite 3 e dê Enter.\n\nPara votar em Branco, digite 0 e dê Enter.\n\n");
-			printf("\nNúmero: ");
+			printf("Para votar no candidato A, digite 1 e dÃª Enter.\n\nPara votar no candidato C, digite 3 e dÃª Enter.\n\nPara votar em Branco, digite 0 e dÃª Enter.\n\n");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==1) {
@@ -904,7 +901,7 @@ void eleicao71() { //Função auxiliar
 			}
 			
 			else if (n>3||n<-1) {
-				printf("\nNúmero inválido\n\n");
+				printf("\nNÃºmero invÃ¡lido\n\n");
 			}
 			
 			system("pause");
@@ -921,8 +918,8 @@ void eleicao71() { //Função auxiliar
 		
 		else {
 		inicio4:
-		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dê Enter.\n\nPara escolher o candidato C, digite 2 e dê Enter.\n\n");
-		printf("\nNúmero: ");
+		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dÃª Enter.\n\nPara escolher o candidato C, digite 2 e dÃª Enter.\n\n");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		system("cls");
 			
@@ -951,8 +948,8 @@ void eleicao71() { //Função auxiliar
 			system("CLS");
 			
 			while(n>-1) {
-			printf("Para votar no candidato B, digite 2 e dê Enter.\n\nPara votar no candidato C, digite 3 e dê Enter.\n\nPara votar em Branco, digite 0 e dê Enter.\n\n");
-			printf("\nNúmero: ");
+			printf("Para votar no candidato B, digite 2 e dÃª Enter.\n\nPara votar no candidato C, digite 3 e dÃª Enter.\n\nPara votar em Branco, digite 0 e dÃª Enter.\n\n");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==2) {
@@ -968,7 +965,7 @@ void eleicao71() { //Função auxiliar
 			}
 			
 			else if (n>3||n<-1) {
-				printf("\nNúmero inválido\n");
+				printf("\nNÃºmero invÃ¡lido\n");
 			}
 			
 			system("pause");
@@ -985,8 +982,8 @@ void eleicao71() { //Função auxiliar
 			
 			else {
 		inicio5:
-		printf("Informe o candidato mais velho\n\nPara escolher o candidato B, digite 1 e dê Enter.\n\nPara escolher o candidato C, digite 2 e dê Enter.\n\n");
-		printf("\nNúmero: ");
+		printf("Informe o candidato mais velho\n\nPara escolher o candidato B, digite 1 e dÃª Enter.\n\nPara escolher o candidato C, digite 2 e dÃª Enter.\n\n");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		system("cls");
 			
@@ -1014,8 +1011,8 @@ void eleicao71() { //Função auxiliar
 			system("CLS");
 			
 			while(n>-1) {
-			printf("Para votar no candidato B, digite 2 e dê Enter.\n\nPara votar no candidato C, digite 3 e dê Enter.\n\nPara votar em Branco, digite 0 e dê Enter.\n\n");
-			printf("\nNúmero: ");
+			printf("Para votar no candidato B, digite 2 e dÃª Enter.\n\nPara votar no candidato C, digite 3 e dÃª Enter.\n\nPara votar em Branco, digite 0 e dÃª Enter.\n\n");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==2) {
@@ -1031,7 +1028,7 @@ void eleicao71() { //Função auxiliar
 			}
 			
 			else if (n>3||n<-1) {
-				printf("\nNúmero inválido\n");
+				printf("\nNÃºmero invÃ¡lido\n");
 			}
 			
 			system("pause");
@@ -1048,8 +1045,8 @@ void eleicao71() { //Função auxiliar
 			
 			else {
 		inicio6:
-		printf("Informe o candidato mais velho\n\nPara escolher o candidato B, digite 1 e dê Enter.\n\nPara escolher o candidato C, digite 2 e dê Enter.\n\n");
-		printf("\nNúmero: ");
+		printf("Informe o candidato mais velho\n\nPara escolher o candidato B, digite 1 e dÃª Enter.\n\nPara escolher o candidato C, digite 2 e dÃª Enter.\n\n");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		system("cls");
 			
@@ -1069,21 +1066,21 @@ void eleicao71() { //Função auxiliar
 		}
 	}
 	else {
-		printf("\nCPF inválido\n\n");
+		printf("\nCPF invÃ¡lido\n\n");
 		system("pause");
 		system("cls");
 		goto inicio;
 	}
 }
 	else {
-		printf("\nCPF inválido\n\n");
+		printf("\nCPF invÃ¡lido\n\n");
 		system("pause");
 		system("cls");
 		goto inicio;
 	}
 }
 
-void algarismo() { //Função auxiliar
+void algarismo() { //FunÃ§Ã£o auxiliar
 	int n, x;
 	
 	scanf("%d", &n);
@@ -1109,7 +1106,7 @@ void algarismo() { //Função auxiliar
 	}
 }
 
-void aprovacao() { //Função auxiliar
+void aprovacao() { //FunÃ§Ã£o auxiliar
 	double n1, n2, n3, m;
 	
 	printf("Informe a primeira nota: ");
@@ -1135,7 +1132,7 @@ void aprovacao() { //Função auxiliar
 	}
 }
 
-void area() { //Função auxiliar
+void area() { //FunÃ§Ã£o auxiliar
 	const double pi=3.14159;
 	double a, r1, r2;
 	
@@ -1144,7 +1141,7 @@ void area() { //Função auxiliar
 	printf("Area = %.4f", a, a=pi*(pow(r2,2)));
 }
 
-void asduas() { //Função auxiliar
+void asduas() { //FunÃ§Ã£o auxiliar
 	char a[121], b[121];
 	
 	scanf("%s\n%s", &a, &b);
@@ -1156,7 +1153,7 @@ void asduas() { //Função auxiliar
 	}
 }
 
-void aumento() { //Função auxiliar
+void aumento() { //FunÃ§Ã£o auxiliar
 	float n;
 	
 	scanf("%f", &n);
@@ -1171,7 +1168,7 @@ void aumento() { //Função auxiliar
 	printf("%.2f", n, n=n+((n/10)/2));
 }
 
-void biblioteca() { //Função auxiliar
+void biblioteca() { //FunÃ§Ã£o auxiliar
 	int d;
 	float m;
 	
@@ -1179,7 +1176,7 @@ void biblioteca() { //Função auxiliar
 	printf("%.2f", m, m=d*0.75);
 }
 
-void busca() { //Função auxiliar
+void busca() { //FunÃ§Ã£o auxiliar
 	int t;
 	
 	scanf("%d", &t);
@@ -1191,7 +1188,7 @@ void busca() { //Função auxiliar
 	printf("");
 }
 
-void calculo() { //Função auxiliar
+void calculo() { //FunÃ§Ã£o auxiliar
 	float v, v1, v2, a, b, c, d;
 	
 	scanf("%f %f %f\n%f %f %f", &a, &b, &v1, &c, &d, &v2);
@@ -1201,18 +1198,18 @@ void calculo() { //Função auxiliar
 	printf("VALOR A PAGAR: R$ %.2f", v);
 }
 
-void eleicao() { //Função auxiliar
+void eleicao() { //FunÃ§Ã£o auxiliar
 	setlocale(LC_ALL, "");
 	int n, cpf, br=0, a=0, b=0, c=0;
 	printf("Digite seu CPF: ");
 	scanf("%d", &cpf);
 	if (cpf>10000&&cpf<100000) {
-		printf("CPF válido.\n");
+		printf("CPF vÃ¡lido.\n");
 		system("pause");
 		system("CLS");
 		printf("Para votar em Branco, digite 0.\n\nPara votar no candidato A, digite 1.\n\nPara votar no candidato B, digite 2.\n\nPara votar no candidato C, digite 3.\n\n");
 		while(n>-1) {
-		printf("\nNúmero: ");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		if(n==1)
 		a++;
@@ -1222,7 +1219,7 @@ void eleicao() { //Função auxiliar
 		c++;
 		else if(n==0)
 		br++;
-		else printf("Número inválido");
+		else printf("NÃºmero invÃ¡lido");
 		system("pause");
 		system("CLS");
 		}
@@ -1237,7 +1234,7 @@ void eleicao() { //Função auxiliar
 			system("CLS");
 			printf("Para votar em Branco, digite 0.\n\nPara votar no candidato A, digite 1.\n\nPara votar no candidato B, digite 2.\n\n");
 			while(n>-1) {
-			printf("\nNúmero: ");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			if(n==1)
 			a++;
@@ -1245,7 +1242,7 @@ void eleicao() { //Função auxiliar
 			b++;
 			else if(n==0)
 			br++;
-			else printf("Número inválido");
+			else printf("NÃºmero invÃ¡lido");
 			system("pause");
 			system("CLS");
 			system("pause");
@@ -1261,7 +1258,7 @@ void eleicao() { //Função auxiliar
 			system("CLS");
 			printf("Para votar em Branco, digite 0.\n\nPara votar no candidato A, digite 1.\n\nPara votar no candidato C, digite 3.\n\n");
 			while(n>-1) {
-			printf("\nNúmero: ");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			if(n==1)
 			a++;
@@ -1269,7 +1266,7 @@ void eleicao() { //Função auxiliar
 			c++;
 			else if(n==0)
 			br++;
-			else printf("Número inválido");
+			else printf("NÃºmero invÃ¡lido");
 			system("pause");
 			system("CLS");
 		}
@@ -1285,7 +1282,7 @@ void eleicao() { //Função auxiliar
 			system("CLS");
 			printf("Para votar em Branco, digite 0.\n\nPara votar no candidato B, digite 2.\n\nPara votar no candidato C, digite 3.\n\n");
 			while(n>-1) {
-			printf("\nNúmero: ");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			if(n==2)
 			b++;
@@ -1293,7 +1290,7 @@ void eleicao() { //Função auxiliar
 			c++;
 			else if(n==0)
 			br++;
-			else printf("Número inválido");
+			else printf("NÃºmero invÃ¡lido");
 		}
 			if(b>c) printf("O candidato B foi eleito!");
 			else ("O candidato C foi eleito!");
@@ -1301,10 +1298,10 @@ void eleicao() { //Função auxiliar
 			system("CLS");
 		}
 	}
-	else printf("CPF inválido");
+	else printf("CPF invÃ¡lido");
 }
 
-void eleicao2() { //Função auxiliar
+void eleicao2() { //FunÃ§Ã£o auxiliar
 	setlocale(LC_ALL,"");
 	int n, cpf, br=0, a=0, b=0, c=0;
 	
@@ -1312,13 +1309,13 @@ void eleicao2() { //Função auxiliar
 	scanf("%d", &cpf);
 	
 	if (cpf>10000&&cpf<100000) {
-		printf("\nCPF válido.\n\n");
+		printf("\nCPF vÃ¡lido.\n\n");
 		system("pause");
 		system("CLS");
 		
 		while(n>-1) {
 		printf("Para votar em Branco, digite 0.\n\nPara votar no candidato A, digite 1.\n\nPara votar no candidato B, digite 2.\n\nPara votar no candidato C, digite 3.\n\n");
-		printf("\nNúmero: ");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		if(n==1)
 		a++;
@@ -1328,7 +1325,7 @@ void eleicao2() { //Função auxiliar
 		c++;
 		else if(n==0)
 		br++;
-		else if (n>3||n<-1) printf("\nNúmero inválido\n\n");
+		else if (n>3||n<-1) printf("\nNÃºmero invÃ¡lido\n\n");
 		system("pause");
 		system("CLS");
 		}
@@ -1351,7 +1348,7 @@ void eleicao2() { //Função auxiliar
 			
 			while(n>-1) {
 			printf("Para votar em Branco, digite 0.\n\nPara votar no candidato A, digite 1.\n\nPara votar no candidato B, digite 2.\n\n");
-			printf("\nNúmero: ");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			if(n==1)
 			a++;
@@ -1359,7 +1356,7 @@ void eleicao2() { //Função auxiliar
 			b++;
 			else if(n==0)
 			br++;
-			else if (n>3||n<-1) printf("\nNúmero inválido\n\n");
+			else if (n>3||n<-1) printf("\nNÃºmero invÃ¡lido\n\n");
 			system("pause");
 			system("CLS");
 		}
@@ -1378,7 +1375,7 @@ void eleicao2() { //Função auxiliar
 			
 			while(n>-1) {
 			printf("Para votar em Branco, digite 0.\n\nPara votar no candidato A, digite 1.\n\nPara votar no candidato C, digite 3.\n\n");
-			printf("\nNúmero: ");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			if(n==1)
 			a++;
@@ -1386,7 +1383,7 @@ void eleicao2() { //Função auxiliar
 			c++;
 			else if(n==0)
 			br++;
-			else if (n>3||n<-1) printf("\nNúmero inválido\n\n");
+			else if (n>3||n<-1) printf("\nNÃºmero invÃ¡lido\n\n");
 			system("pause");
 			system("CLS");
 		}
@@ -1405,7 +1402,7 @@ void eleicao2() { //Função auxiliar
 			
 			while(n>-1) {
 			printf("Para votar em Branco, digite 0.\n\nPara votar no candidato B, digite 2.\n\nPara votar no candidato C, digite 3.\n\n");
-			printf("\nNúmero: ");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			if(n==2)
 			b++;
@@ -1414,7 +1411,7 @@ void eleicao2() { //Função auxiliar
 			else if(n==0)
 			br++;
 			else if (n>3||n<-1) 
-			printf("\nNúmero inválido\n");
+			printf("\nNÃºmero invÃ¡lido\n");
 			system("pause");
 			system("CLS");
 		}
@@ -1427,10 +1424,10 @@ void eleicao2() { //Função auxiliar
 			
 		}
 	}
-	else printf("\nCPF inválido\n");
+	else printf("\nCPF invÃ¡lido\n");
 }
 
-void eleicao3() { //Função auxiliar
+void eleicao3() { //FunÃ§Ã£o auxiliar
 	setlocale(LC_ALL,"");
 	int n, cpf, br=0, a=0, b=0, c=0;
 	
@@ -1438,13 +1435,13 @@ void eleicao3() { //Função auxiliar
 	scanf("%d", &cpf);
 	
 	if (cpf>10000&&cpf<100000) {
-		printf("\nCPF válido.\n\n");
+		printf("\nCPF vÃ¡lido.\n\n");
 		system("pause");
 		system("CLS");
 		
 		while(n>-1) {
 		printf("Para votar em Branco, digite 0.\n\nPara votar no candidato A, digite 1.\n\nPara votar no candidato B, digite 2.\n\nPara votar no candidato C, digite 3.\n\n");
-		printf("\nNúmero: ");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		
 		if(n==1) a++;
@@ -1455,7 +1452,7 @@ void eleicao3() { //Função auxiliar
 		
 		else if(n==0) br++;
 		
-		else if (n>3||n<-1) printf("\nNúmero inválido\n\n");
+		else if (n>3||n<-1) printf("\nNÃºmero invÃ¡lido\n\n");
 		system("pause");
 		system("CLS");
 		}
@@ -1479,7 +1476,7 @@ void eleicao3() { //Função auxiliar
 			
 			while(n>-1) {
 			printf("Para votar em Branco, digite 0.\n\nPara votar no candidato A, digite 1.\n\nPara votar no candidato B, digite 2.\n\n");
-			printf("\nNúmero: ");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==1) a++;
@@ -1488,7 +1485,7 @@ void eleicao3() { //Função auxiliar
 			
 			else if(n==0) br++;
 			
-			else if (n>3||n<-1) printf("\nNúmero inválido\n\n");
+			else if (n>3||n<-1) printf("\nNÃºmero invÃ¡lido\n\n");
 			
 			system("pause");
 			system("CLS");
@@ -1513,7 +1510,7 @@ void eleicao3() { //Função auxiliar
 			
 			while(n>-1) {
 			printf("Para votar em Branco, digite 0.\n\nPara votar no candidato A, digite 1.\n\nPara votar no candidato C, digite 3.\n\n");
-			printf("\nNúmero: ");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==1) a++;
@@ -1522,7 +1519,7 @@ void eleicao3() { //Função auxiliar
 			
 			else if(n==0) br++;
 			
-			else if (n>3||n<-1) printf("\nNúmero inválido\n\n");
+			else if (n>3||n<-1) printf("\nNÃºmero invÃ¡lido\n\n");
 			
 			system("pause");
 			system("CLS");
@@ -1547,7 +1544,7 @@ void eleicao3() { //Função auxiliar
 			
 			while(n>-1) {
 			printf("Para votar em Branco, digite 0.\n\nPara votar no candidato B, digite 2.\n\nPara votar no candidato C, digite 3.\n\n");
-			printf("\nNúmero: ");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==2) b++;
@@ -1558,7 +1555,7 @@ void eleicao3() { //Função auxiliar
 			
 			else if (n>3||n<-1) 
 			
-			printf("\nNúmero inválido\n");
+			printf("\nNÃºmero invÃ¡lido\n");
 			system("pause");
 			system("CLS");
 		}
@@ -1573,10 +1570,10 @@ void eleicao3() { //Função auxiliar
 			
 		}
 	}
-	else printf("\nCPF inválido\n");
+	else printf("\nCPF invÃ¡lido\n");
 }
 
-void eleicao4() { //Função auxiliar
+void eleicao4() { //FunÃ§Ã£o auxiliar
 	setlocale(LC_ALL,"");
 	int n, cpf, br=0, a=0, b=0, c=0;
 	
@@ -1584,13 +1581,13 @@ void eleicao4() { //Função auxiliar
 	scanf("%d", &cpf);
 	
 	if (cpf>10000&&cpf<100000) {
-		printf("\nCPF válido.\n\n");
+		printf("\nCPF vÃ¡lido.\n\n");
 		system("pause");
 		system("CLS");
 		
 		while(n>-1) {
 		printf("Para votar em Branco, digite 0.\n\nPara votar no candidato A, digite 1.\n\nPara votar no candidato B, digite 2.\n\nPara votar no candidato C, digite 3.\n\n");
-		printf("\nNúmero: ");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		
 		if(n==1) a++;
@@ -1601,7 +1598,7 @@ void eleicao4() { //Função auxiliar
 		
 		else if(n==0) br++;
 		
-		else if (n>3||n<-1) printf("\nNúmero inválido\n\n");
+		else if (n>3||n<-1) printf("\nNÃºmero invÃ¡lido\n\n");
 		system("pause");
 		system("CLS");
 		}
@@ -1625,7 +1622,7 @@ void eleicao4() { //Função auxiliar
 			
 			while(n>-1) {
 			printf("Para votar em Branco, digite 0.\n\nPara votar no candidato A, digite 1.\n\nPara votar no candidato B, digite 2.\n\n");
-			printf("\nNúmero: ");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==1) a++;
@@ -1634,7 +1631,7 @@ void eleicao4() { //Função auxiliar
 			
 			else if(n==0) br++;
 			
-			else if (n>3||n<-1) printf("\nNúmero inválido\n\n");
+			else if (n>3||n<-1) printf("\nNÃºmero invÃ¡lido\n\n");
 			
 			system("pause");
 			system("CLS");
@@ -1660,7 +1657,7 @@ void eleicao4() { //Função auxiliar
 			
 			while(n>-1) {
 			printf("Para votar em Branco, digite 0.\n\nPara votar no candidato A, digite 1.\n\nPara votar no candidato B, digite 2.\n\n");
-			printf("\nNúmero: ");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==1) a++;
@@ -1669,7 +1666,7 @@ void eleicao4() { //Função auxiliar
 			
 			else if(n==0) br++;
 			
-			else if (n>3||n<-1) printf("\nNúmero inválido\n\n");
+			else if (n>3||n<-1) printf("\nNÃºmero invÃ¡lido\n\n");
 			
 			system("pause");
 			system("CLS");
@@ -1695,7 +1692,7 @@ void eleicao4() { //Função auxiliar
 			
 			while(n>-1) {
 			printf("Para votar em Branco, digite 0.\n\nPara votar no candidato A, digite 1.\n\nPara votar no candidato C, digite 3.\n\n");
-			printf("\nNúmero: ");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==1) a++;
@@ -1704,7 +1701,7 @@ void eleicao4() { //Função auxiliar
 			
 			else if(n==0) br++;
 			
-			else if (n>3||n<-1) printf("\nNúmero inválido\n\n");
+			else if (n>3||n<-1) printf("\nNÃºmero invÃ¡lido\n\n");
 			
 			system("pause");
 			system("CLS");
@@ -1730,7 +1727,7 @@ void eleicao4() { //Função auxiliar
 			
 			while(n>-1) {
 			printf("Para votar em Branco, digite 0.\n\nPara votar no candidato A, digite 1.\n\nPara votar no candidato C, digite 3.\n\n");
-			printf("\nNúmero: ");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==1) a++;
@@ -1739,7 +1736,7 @@ void eleicao4() { //Função auxiliar
 			
 			else if(n==0) br++;
 			
-			else if (n>3||n<-1) printf("\nNúmero inválido\n\n");
+			else if (n>3||n<-1) printf("\nNÃºmero invÃ¡lido\n\n");
 			
 			system("pause");
 			system("CLS");
@@ -1765,7 +1762,7 @@ void eleicao4() { //Função auxiliar
 			
 			while(n>-1) {
 			printf("Para votar em Branco, digite 0.\n\nPara votar no candidato B, digite 2.\n\nPara votar no candidato C, digite 3.\n\n");
-			printf("\nNúmero: ");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==2) b++;
@@ -1776,7 +1773,7 @@ void eleicao4() { //Função auxiliar
 			
 			else if (n>3||n<-1) 
 			
-			printf("\nNúmero inválido\n");
+			printf("\nNÃºmero invÃ¡lido\n");
 			system("pause");
 			system("CLS");
 		}
@@ -1801,7 +1798,7 @@ void eleicao4() { //Função auxiliar
 			
 			while(n>-1) {
 			printf("Para votar em Branco, digite 0.\n\nPara votar no candidato B, digite 2.\n\nPara votar no candidato C, digite 3.\n\n");
-			printf("\nNúmero: ");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==2) b++;
@@ -1812,7 +1809,7 @@ void eleicao4() { //Função auxiliar
 			
 			else if (n>3||n<-1) 
 			
-			printf("\nNúmero inválido\n");
+			printf("\nNÃºmero invÃ¡lido\n");
 			system("pause");
 			system("CLS");
 		}
@@ -1827,10 +1824,10 @@ void eleicao4() { //Função auxiliar
 			
 		}
 	}
-	else printf("\nCPF inválido\n");
+	else printf("\nCPF invÃ¡lido\n");
 }
 
-void eleicao5() { //Função auxiliar
+void eleicao5() { //FunÃ§Ã£o auxiliar
 	setlocale(LC_ALL,"");
 	int n, cpf, br=0, a=0, b=0, c=0;
 	
@@ -1838,13 +1835,13 @@ void eleicao5() { //Função auxiliar
 	scanf("%d", &cpf);
 	
 	if (cpf>10000&&cpf<100000) {
-		printf("\nCPF válido.\n\n");
+		printf("\nCPF vÃ¡lido.\n\n");
 		system("pause");
 		system("CLS");
 		
 		while(n>-1) {
 		printf("Para votar no candidato A, digite 1.\n\nPara votar no candidato B, digite 2.\n\nPara votar no candidato C, digite 3.\n\nPara votar em Branco, digite 0.\n\n");
-		printf("\nNúmero: ");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		
 		if(n==1) 
@@ -1860,7 +1857,7 @@ void eleicao5() { //Função auxiliar
 		br++;
 		
 		else if(n>3||n<-1) 
-		printf("\nNúmero inválido\n\n");
+		printf("\nNÃºmero invÃ¡lido\n\n");
 		system("pause");
 		system("CLS");
 		}
@@ -1887,7 +1884,7 @@ void eleicao5() { //Função auxiliar
 			
 			while(n>-1) {
 			printf("Para votar no candidato A, digite 1.\n\nPara votar no candidato B, digite 2.\n\nPara votar em Branco, digite 0.\n\n");
-			printf("\nNúmero: ");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==1)
@@ -1900,7 +1897,7 @@ void eleicao5() { //Função auxiliar
 			br++;
 			
 			else if (n>3||n<-1) 
-			printf("\nNúmero inválido\n\n");
+			printf("\nNÃºmero invÃ¡lido\n\n");
 			
 			system("pause");
 			system("CLS");
@@ -1917,7 +1914,7 @@ void eleicao5() { //Função auxiliar
 		else {
 		inicio1:
 		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1.\n\nPara escolher o candidato B, digite 2.\n\n");
-		printf("\nNúmero: ");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		system("cls");
 			
@@ -1947,7 +1944,7 @@ void eleicao5() { //Função auxiliar
 			
 			while(n>-1) {
 			printf("Para votar no candidato A, digite 1.\n\nPara votar no candidato B, digite 2.\n\nPara votar em Branco, digite 0.\n\n");
-			printf("\nNúmero: ");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==1) 
@@ -1960,7 +1957,7 @@ void eleicao5() { //Função auxiliar
 			br++;
 			
 			else if (n>3||n<-1) 
-			printf("\nNúmero inválido\n\n");
+			printf("\nNÃºmero invÃ¡lido\n\n");
 			
 			system("pause");
 			system("CLS");
@@ -1977,7 +1974,7 @@ void eleicao5() { //Função auxiliar
 		else {
 		inicio2:
 		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1.\n\nPara escolher o candidato B, digite 2.\n\n");
-		printf("\nNúmero: ");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		system("cls");
 			
@@ -2007,7 +2004,7 @@ void eleicao5() { //Função auxiliar
 			
 			while(n>-1) {
 			printf("Para votar no candidato A, digite 1.\n\nPara votar no candidato C, digite 3.\n\nPara votar em Branco, digite 0.\n\n");
-			printf("\nNúmero: ");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==1) 
@@ -2020,7 +2017,7 @@ void eleicao5() { //Função auxiliar
 			br++;
 			
 			else if (n>3||n<-1) 
-			printf("\nNúmero inválido\n\n");
+			printf("\nNÃºmero invÃ¡lido\n\n");
 			
 			system("pause");
 			system("CLS");
@@ -2037,7 +2034,7 @@ void eleicao5() { //Função auxiliar
 		else {
 		inicio3:
 		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1.\n\nPara escolher o candidato C, digite 3.\n\n");
-		printf("\nNúmero: ");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		system("cls");
 			
@@ -2067,7 +2064,7 @@ void eleicao5() { //Função auxiliar
 			
 			while(n>-1) {
 			printf("Para votar no candidato A, digite 1.\n\nPara votar no candidato C, digite 3.\n\nPara votar em Branco, digite 0.\n\n");
-			printf("\nNúmero: ");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==1) 
@@ -2080,7 +2077,7 @@ void eleicao5() { //Função auxiliar
 			br++;
 			
 			else if (n>3||n<-1) 
-			printf("\nNúmero inválido\n\n");
+			printf("\nNÃºmero invÃ¡lido\n\n");
 			system("pause");
 			system("CLS");
 		}
@@ -2096,7 +2093,7 @@ void eleicao5() { //Função auxiliar
 		else {
 		inicio4:
 		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1.\n\nPara escolher o candidato C, digite 2.\n\n");
-		printf("\nNúmero: ");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		system("cls");
 			
@@ -2126,7 +2123,7 @@ void eleicao5() { //Função auxiliar
 			
 			while(n>-1) {
 			printf("Para votar no candidato B, digite 2.\n\nPara votar no candidato C, digite 3.\n\nPara votar em Branco, digite 0.\n\n");
-			printf("\nNúmero: ");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==2) 
@@ -2139,7 +2136,7 @@ void eleicao5() { //Função auxiliar
 			br++;
 			
 			else if (n>3||n<-1) 
-			printf("\nNúmero inválido\n");
+			printf("\nNÃºmero invÃ¡lido\n");
 			system("pause");
 			system("CLS");
 		}
@@ -2155,7 +2152,7 @@ void eleicao5() { //Função auxiliar
 			else {
 		inicio5:
 		printf("Informe o candidato mais velho\n\nPara escolher o candidato B, digite 1.\n\nPara escolher o candidato C, digite 2.\n\n");
-		printf("\nNúmero: ");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		system("cls");
 			
@@ -2185,7 +2182,7 @@ void eleicao5() { //Função auxiliar
 			
 			while(n>-1) {
 			printf("Para votar no candidato B, digite 2.\n\nPara votar no candidato C, digite 3.\n\nPara votar em Branco, digite 0.\n\n");
-			printf("\nNúmero: ");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==2) 
@@ -2198,7 +2195,7 @@ void eleicao5() { //Função auxiliar
 			br++;
 			
 			else if (n>3||n<-1) 
-			printf("\nNúmero inválido\n");
+			printf("\nNÃºmero invÃ¡lido\n");
 			system("pause");
 			system("CLS");
 		}
@@ -2214,7 +2211,7 @@ void eleicao5() { //Função auxiliar
 			else {
 		inicio6:
 		printf("Informe o candidato mais velho\n\nPara escolher o candidato B, digite 1.\n\nPara escolher o candidato C, digite 2.\n\n");
-		printf("\nNúmero: ");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		system("cls");
 			
@@ -2233,10 +2230,10 @@ void eleicao5() { //Função auxiliar
 		}
 		}
 	}
-	else printf("\nCPF inválido\n");
+	else printf("\nCPF invÃ¡lido\n");
 }
 
-void eleicao6() { //Função auxiliar
+void eleicao6() { //FunÃ§Ã£o auxiliar
 	setlocale(LC_ALL,"");
 	int n, cpf, br=0, a=0, b=0, c=0, cpfi[1000000000], x=0, i, v;
 	
@@ -2257,13 +2254,13 @@ void eleicao6() { //Função auxiliar
 	}
 	
         if(v==1) {
-		printf("\nCPF válido.\n\n");
+		printf("\nCPF vÃ¡lido.\n\n");
 		system("pause");
 		system("CLS");
 		
 		while(n>-1) {
-		printf("Para votar no candidato A, digite 1 e dê Enter..\n\nPara votar no candidato B, digite 2 e dê Enter..\n\nPara votar no candidato C, digite 3 e dê Enter..\n\nPara votar em Branco, digite 0 e dê Enter..\n\n");
-		printf("\nNúmero: ");
+		printf("Para votar no candidato A, digite 1 e dÃª Enter..\n\nPara votar no candidato B, digite 2 e dÃª Enter..\n\nPara votar no candidato C, digite 3 e dÃª Enter..\n\nPara votar em Branco, digite 0 e dÃª Enter..\n\n");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		
 		if(n==1) {
@@ -2299,7 +2296,7 @@ void eleicao6() { //Função auxiliar
 		}
 		
 		else if(n>3||n<-1) {
-			printf("\nNúmero inválido\n\n");
+			printf("\nNÃºmero invÃ¡lido\n\n");
 			goto inicio;
 		}
 		system("pause");
@@ -2329,8 +2326,8 @@ void eleicao6() { //Função auxiliar
 			
 			while(n>-1) {
 			inicioa:
-			printf("Para votar no candidato A, digite 1 e dê Enter..\n\nPara votar no candidato B, digite 2 e dê Enter..\n\nPara votar em Branco, digite 0 e dê Enter.\n\n");
-			printf("\nNúmero: ");
+			printf("Para votar no candidato A, digite 1 e dÃª Enter..\n\nPara votar no candidato B, digite 2 e dÃª Enter..\n\nPara votar em Branco, digite 0 e dÃª Enter.\n\n");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==1){
@@ -2355,7 +2352,7 @@ void eleicao6() { //Função auxiliar
 			}
 			
 			else if (n>3||n<-1) {
-				printf("\nNúmero inválido\n\n");
+				printf("\nNÃºmero invÃ¡lido\n\n");
 				system("pause");
 				system("CLS");
 				goto inicioa;
@@ -2373,8 +2370,8 @@ void eleicao6() { //Função auxiliar
 		
 		else {
 		inicio1:
-		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dê Enter.\n\nPara escolher o candidato B, digite 2 e dê Enter.\n\n");
-		printf("\nNúmero: ");
+		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dÃª Enter.\n\nPara escolher o candidato B, digite 2 e dÃª Enter.\n\n");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		system("cls");
 			
@@ -2404,8 +2401,8 @@ void eleicao6() { //Função auxiliar
 			
 			while(n>-1) {
 			iniciob:
-			printf("Para votar no candidato A, digite 1 e dê Enter.\n\nPara votar no candidato B, digite 2 e dê Enter.\n\nPara votar em Branco, digite 0 e dê Enter.\n\n");
-			printf("\nNúmero: ");
+			printf("Para votar no candidato A, digite 1 e dÃª Enter.\n\nPara votar no candidato B, digite 2 e dÃª Enter.\n\nPara votar em Branco, digite 0 e dÃª Enter.\n\n");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==1) {
@@ -2430,7 +2427,7 @@ void eleicao6() { //Função auxiliar
 			}
 			
 			else if (n>3||n<-1) {
-				printf("\nNúmero inválido\n\n");
+				printf("\nNÃºmero invÃ¡lido\n\n");
 				system("pause");
 		        system("CLS");				
 				goto iniciob;
@@ -2450,8 +2447,8 @@ void eleicao6() { //Função auxiliar
 		
 		else {
 		inicio2:
-		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dê Enter.\n\nPara escolher o candidato B, digite 2 e dê Enter.\n\n");
-		printf("\nNúmero: ");
+		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dÃª Enter.\n\nPara escolher o candidato B, digite 2 e dÃª Enter.\n\n");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		system("cls");
 			
@@ -2481,8 +2478,8 @@ void eleicao6() { //Função auxiliar
 			
 			while(n>-1) {
 			inicioc:
-			printf("Para votar no candidato A, digite 1 e dê Enter.\n\nPara votar no candidato C, digite 3 e dê Enter.\n\nPara votar em Branco, digite 0 e dê Enter.\n\n");
-			printf("\nNúmero: ");
+			printf("Para votar no candidato A, digite 1 e dÃª Enter.\n\nPara votar no candidato C, digite 3 e dÃª Enter.\n\nPara votar em Branco, digite 0 e dÃª Enter.\n\n");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==1) {
@@ -2501,7 +2498,7 @@ void eleicao6() { //Função auxiliar
 			}
 			
 			else if (n>3||n<-1) {
-				printf("\nNúmero inválido\n\n");
+				printf("\nNÃºmero invÃ¡lido\n\n");
 				goto inicioc;
 			}
 			
@@ -2519,8 +2516,8 @@ void eleicao6() { //Função auxiliar
 		
 		else {
 		inicio3:
-		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dê Enter.\n\nPara escolher o candidato C, digite 3 e dê Enter.\n\n");
-		printf("\nNúmero: ");
+		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dÃª Enter.\n\nPara escolher o candidato C, digite 3 e dÃª Enter.\n\n");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		system("cls");
 			
@@ -2550,8 +2547,8 @@ void eleicao6() { //Função auxiliar
 			
 			while(n>-1) {
 			iniciod:
-			printf("Para votar no candidato A, digite 1 e dê Enter.\n\nPara votar no candidato C, digite 3 e dê Enter.\n\nPara votar em Branco, digite 0 e dê Enter.\n\n");
-			printf("\nNúmero: ");
+			printf("Para votar no candidato A, digite 1 e dÃª Enter.\n\nPara votar no candidato C, digite 3 e dÃª Enter.\n\nPara votar em Branco, digite 0 e dÃª Enter.\n\n");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==1) {
@@ -2570,7 +2567,7 @@ void eleicao6() { //Função auxiliar
 			}
 			
 			else if (n>3||n<-1) {
-				printf("\nNúmero inválido\n\n");
+				printf("\nNÃºmero invÃ¡lido\n\n");
 				goto iniciod;
 			}
 			
@@ -2588,8 +2585,8 @@ void eleicao6() { //Função auxiliar
 		
 		else {
 		inicio4:
-		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dê Enter.\n\nPara escolher o candidato C, digite 2 e dê Enter.\n\n");
-		printf("\nNúmero: ");
+		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dÃª Enter.\n\nPara escolher o candidato C, digite 2 e dÃª Enter.\n\n");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		system("cls");
 			
@@ -2619,8 +2616,8 @@ void eleicao6() { //Função auxiliar
 			
 			while(n>-1) {
 			inicioe:
-			printf("Para votar no candidato B, digite 2 e dê Enter.\n\nPara votar no candidato C, digite 3 e dê Enter.\n\nPara votar em Branco, digite 0 e dê Enter.\n\n");
-			printf("\nNúmero: ");
+			printf("Para votar no candidato B, digite 2 e dÃª Enter.\n\nPara votar no candidato C, digite 3 e dÃª Enter.\n\nPara votar em Branco, digite 0 e dÃª Enter.\n\n");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==2) {
@@ -2639,7 +2636,7 @@ void eleicao6() { //Função auxiliar
 			}
 			
 			else if (n>3||n<-1) {
-				printf("\nNúmero inválido\n");
+				printf("\nNÃºmero invÃ¡lido\n");
 				goto inicioe;
 			}
 			
@@ -2657,8 +2654,8 @@ void eleicao6() { //Função auxiliar
 			
 			else {
 		inicio5:
-		printf("Informe o candidato mais velho\n\nPara escolher o candidato B, digite 1 e dê Enter.\n\nPara escolher o candidato C, digite 2 e dê Enter.\n\n");
-		printf("\nNúmero: ");
+		printf("Informe o candidato mais velho\n\nPara escolher o candidato B, digite 1 e dÃª Enter.\n\nPara escolher o candidato C, digite 2 e dÃª Enter.\n\n");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		system("cls");
 			
@@ -2687,8 +2684,8 @@ void eleicao6() { //Função auxiliar
 			
 			while(n>-1) {
 			iniciof:
-			printf("Para votar no candidato B, digite 2 e dê Enter.\n\nPara votar no candidato C, digite 3 e dê Enter.\n\nPara votar em Branco, digite 0 e dê Enter.\n\n");
-			printf("\nNúmero: ");
+			printf("Para votar no candidato B, digite 2 e dÃª Enter.\n\nPara votar no candidato C, digite 3 e dÃª Enter.\n\nPara votar em Branco, digite 0 e dÃª Enter.\n\n");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==2) {
@@ -2707,7 +2704,7 @@ void eleicao6() { //Função auxiliar
 			}
 			
 			else if (n>3||n<-1) {
-				printf("\nNúmero inválido\n");
+				printf("\nNÃºmero invÃ¡lido\n");
 				goto iniciof;
 			}
 			
@@ -2725,8 +2722,8 @@ void eleicao6() { //Função auxiliar
 			
 			else {
 		inicio6:
-		printf("Informe o candidato mais velho\n\nPara escolher o candidato B, digite 1 e dê Enter.\n\nPara escolher o candidato C, digite 2 e dê Enter.\n\n");
-		printf("\nNúmero: ");
+		printf("Informe o candidato mais velho\n\nPara escolher o candidato B, digite 1 e dÃª Enter.\n\nPara escolher o candidato C, digite 2 e dÃª Enter.\n\n");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		system("cls");
 			
@@ -2746,10 +2743,10 @@ void eleicao6() { //Função auxiliar
 		}
 	}
 }
-	else printf("\nCPF inválido\n");
+	else printf("\nCPF invÃ¡lido\n");
 }
 
-void eleicao7() { //Função auxiliar
+void eleicao7() { //FunÃ§Ã£o auxiliar
 	setlocale(LC_ALL,"");
 	int n, cpf, br=0, a=0, b=0, c=0, cpfi[100000], x=0, i, v;
 	
@@ -2774,13 +2771,13 @@ void eleicao7() { //Função auxiliar
 	    cpfi[x]=cpf;
         
 		if(v==1) {
-		printf("\nCPF válido.\n\n");
+		printf("\nCPF vÃ¡lido.\n\n");
 		system("pause");
 		system("CLS");
 		
 		while(n>-1) {
-		printf("Para votar no candidato A, digite 1 e dê Enter..\n\nPara votar no candidato B, digite 2 e dê Enter..\n\nPara votar no candidato C, digite 3 e dê Enter..\n\nPara votar em Branco, digite 0 e dê Enter..\n\n");
-		printf("\nNúmero: ");
+		printf("Para votar no candidato A, digite 1 e dÃª Enter..\n\nPara votar no candidato B, digite 2 e dÃª Enter..\n\nPara votar no candidato C, digite 3 e dÃª Enter..\n\nPara votar em Branco, digite 0 e dÃª Enter..\n\n");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		
 		if(n==1) {
@@ -2816,7 +2813,7 @@ void eleicao7() { //Função auxiliar
 		}
 		
 		else if(n>3||n<-1) {
-			printf("\nNúmero inválido\n\n");
+			printf("\nNÃºmero invÃ¡lido\n\n");
 			goto inicio;
 		}
 		system("pause");
@@ -2845,8 +2842,8 @@ void eleicao7() { //Função auxiliar
 			
 			while(n>-1) {
 			inicioa:
-			printf("Para votar no candidato A, digite 1 e dê Enter..\n\nPara votar no candidato B, digite 2 e dê Enter..\n\nPara votar em Branco, digite 0 e dê Enter.\n\n");
-			printf("\nNúmero: ");
+			printf("Para votar no candidato A, digite 1 e dÃª Enter..\n\nPara votar no candidato B, digite 2 e dÃª Enter..\n\nPara votar em Branco, digite 0 e dÃª Enter.\n\n");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==1){
@@ -2871,7 +2868,7 @@ void eleicao7() { //Função auxiliar
 			}
 			
 			else if (n>3||n<-1) {
-				printf("\nNúmero inválido\n\n");
+				printf("\nNÃºmero invÃ¡lido\n\n");
 				system("pause");
 				system("CLS");
 				goto inicioa;
@@ -2889,8 +2886,8 @@ void eleicao7() { //Função auxiliar
 		
 		else {
 		inicio1:
-		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dê Enter.\n\nPara escolher o candidato B, digite 2 e dê Enter.\n\n");
-		printf("\nNúmero: ");
+		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dÃª Enter.\n\nPara escolher o candidato B, digite 2 e dÃª Enter.\n\n");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		system("cls");
 			
@@ -2920,8 +2917,8 @@ void eleicao7() { //Função auxiliar
 			
 			while(n>-1) {
 			iniciob:
-			printf("Para votar no candidato A, digite 1 e dê Enter.\n\nPara votar no candidato B, digite 2 e dê Enter.\n\nPara votar em Branco, digite 0 e dê Enter.\n\n");
-			printf("\nNúmero: ");
+			printf("Para votar no candidato A, digite 1 e dÃª Enter.\n\nPara votar no candidato B, digite 2 e dÃª Enter.\n\nPara votar em Branco, digite 0 e dÃª Enter.\n\n");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==1) {
@@ -2946,7 +2943,7 @@ void eleicao7() { //Função auxiliar
 			}
 			
 			else if (n>3||n<-1) {
-				printf("\nNúmero inválido\n\n");
+				printf("\nNÃºmero invÃ¡lido\n\n");
 				system("pause");
 		        system("CLS");				
 				goto iniciob;
@@ -2966,8 +2963,8 @@ void eleicao7() { //Função auxiliar
 		
 		else {
 		inicio2:
-		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dê Enter.\n\nPara escolher o candidato B, digite 2 e dê Enter.\n\n");
-		printf("\nNúmero: ");
+		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dÃª Enter.\n\nPara escolher o candidato B, digite 2 e dÃª Enter.\n\n");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		system("cls");
 			
@@ -2997,8 +2994,8 @@ void eleicao7() { //Função auxiliar
 			
 			while(n>-1) {
 			inicioc:
-			printf("Para votar no candidato A, digite 1 e dê Enter.\n\nPara votar no candidato C, digite 3 e dê Enter.\n\nPara votar em Branco, digite 0 e dê Enter.\n\n");
-			printf("\nNúmero: ");
+			printf("Para votar no candidato A, digite 1 e dÃª Enter.\n\nPara votar no candidato C, digite 3 e dÃª Enter.\n\nPara votar em Branco, digite 0 e dÃª Enter.\n\n");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==1) {
@@ -3017,7 +3014,7 @@ void eleicao7() { //Função auxiliar
 			}
 			
 			else if (n>3||n<-1) {
-				printf("\nNúmero inválido\n\n");
+				printf("\nNÃºmero invÃ¡lido\n\n");
 				goto inicioc;
 			}
 			
@@ -3035,8 +3032,8 @@ void eleicao7() { //Função auxiliar
 		
 		else {
 		inicio3:
-		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dê Enter.\n\nPara escolher o candidato C, digite 3 e dê Enter.\n\n");
-		printf("\nNúmero: ");
+		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dÃª Enter.\n\nPara escolher o candidato C, digite 3 e dÃª Enter.\n\n");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		system("cls");
 			
@@ -3066,8 +3063,8 @@ void eleicao7() { //Função auxiliar
 			
 			while(n>-1) {
 			iniciod:
-			printf("Para votar no candidato A, digite 1 e dê Enter.\n\nPara votar no candidato C, digite 3 e dê Enter.\n\nPara votar em Branco, digite 0 e dê Enter.\n\n");
-			printf("\nNúmero: ");
+			printf("Para votar no candidato A, digite 1 e dÃª Enter.\n\nPara votar no candidato C, digite 3 e dÃª Enter.\n\nPara votar em Branco, digite 0 e dÃª Enter.\n\n");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==1) {
@@ -3086,7 +3083,7 @@ void eleicao7() { //Função auxiliar
 			}
 			
 			else if (n>3||n<-1) {
-				printf("\nNúmero inválido\n\n");
+				printf("\nNÃºmero invÃ¡lido\n\n");
 				goto iniciod;
 			}
 			
@@ -3104,8 +3101,8 @@ void eleicao7() { //Função auxiliar
 		
 		else {
 		inicio4:
-		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dê Enter.\n\nPara escolher o candidato C, digite 2 e dê Enter.\n\n");
-		printf("\nNúmero: ");
+		printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dÃª Enter.\n\nPara escolher o candidato C, digite 2 e dÃª Enter.\n\n");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		system("cls");
 			
@@ -3135,8 +3132,8 @@ void eleicao7() { //Função auxiliar
 			
 			while(n>-1) {
 			inicioe:
-			printf("Para votar no candidato B, digite 2 e dê Enter.\n\nPara votar no candidato C, digite 3 e dê Enter.\n\nPara votar em Branco, digite 0 e dê Enter.\n\n");
-			printf("\nNúmero: ");
+			printf("Para votar no candidato B, digite 2 e dÃª Enter.\n\nPara votar no candidato C, digite 3 e dÃª Enter.\n\nPara votar em Branco, digite 0 e dÃª Enter.\n\n");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==2) {
@@ -3155,7 +3152,7 @@ void eleicao7() { //Função auxiliar
 			}
 			
 			else if (n>3||n<-1) {
-				printf("\nNúmero inválido\n");
+				printf("\nNÃºmero invÃ¡lido\n");
 				goto inicioe;
 			}
 			
@@ -3173,8 +3170,8 @@ void eleicao7() { //Função auxiliar
 			
 			else {
 		inicio5:
-		printf("Informe o candidato mais velho\n\nPara escolher o candidato B, digite 1 e dê Enter.\n\nPara escolher o candidato C, digite 2 e dê Enter.\n\n");
-		printf("\nNúmero: ");
+		printf("Informe o candidato mais velho\n\nPara escolher o candidato B, digite 1 e dÃª Enter.\n\nPara escolher o candidato C, digite 2 e dÃª Enter.\n\n");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		system("cls");
 			
@@ -3203,8 +3200,8 @@ void eleicao7() { //Função auxiliar
 			
 			while(n>-1) {
 			iniciof:
-			printf("Para votar no candidato B, digite 2 e dê Enter.\n\nPara votar no candidato C, digite 3 e dê Enter.\n\nPara votar em Branco, digite 0 e dê Enter.\n\n");
-			printf("\nNúmero: ");
+			printf("Para votar no candidato B, digite 2 e dÃª Enter.\n\nPara votar no candidato C, digite 3 e dÃª Enter.\n\nPara votar em Branco, digite 0 e dÃª Enter.\n\n");
+			printf("\nNÃºmero: ");
 			scanf("%d", &n);
 			
 			if(n==2) {
@@ -3223,7 +3220,7 @@ void eleicao7() { //Função auxiliar
 			}
 			
 			else if (n>3||n<-1) {
-				printf("\nNúmero inválido\n");
+				printf("\nNÃºmero invÃ¡lido\n");
 				goto iniciof;
 			}
 			
@@ -3241,8 +3238,8 @@ void eleicao7() { //Função auxiliar
 			
 			else {
 		inicio6:
-		printf("Informe o candidato mais velho\n\nPara escolher o candidato B, digite 1 e dê Enter.\n\nPara escolher o candidato C, digite 2 e dê Enter.\n\n");
-		printf("\nNúmero: ");
+		printf("Informe o candidato mais velho\n\nPara escolher o candidato B, digite 1 e dÃª Enter.\n\nPara escolher o candidato C, digite 2 e dÃª Enter.\n\n");
+		printf("\nNÃºmero: ");
 		scanf("%d", &n);
 		system("cls");
 			
@@ -3262,14 +3259,14 @@ void eleicao7() { //Função auxiliar
 		}
 	}
 	else {
-		printf("\nCPF inválido\n\n");
+		printf("\nCPF invÃ¡lido\n\n");
 		system("pause");
 		system("cls");
 		goto inicio;
 	}
 }
 	else {
-		printf("\nCPF inválido\n\n");
+		printf("\nCPF invÃ¡lido\n\n");
 		system("pause");
 		system("cls");
 		goto inicio;
@@ -3277,7 +3274,7 @@ void eleicao7() { //Função auxiliar
 }
 
 
-void eleicao8() { //Função auxiliar
+void eleicao8() { //FunÃ§Ã£o auxiliar
 	setlocale(LC_ALL,"");
 	int n=0, cpf, br=0, a=0, b=0, c=0, cpfi[100000], x=0, i, v;
 	
@@ -3299,13 +3296,13 @@ void eleicao8() { //Função auxiliar
 	    cpfi[x]=cpf;
         
 	    if(v==1) {
-	        printf("\nCPF válido.\n\n");		
+	        printf("\nCPF vÃ¡lido.\n\n");		
 	        system("pause");
 	        system("CLS");
 		
 	        while(n>-1) {
-	            printf("Para votar no candidato A, digite 1 e dê Enter..\n\nPara votar no candidato B, digite 2 e dê Enter..\n\nPara votar no candidato C, digite 3 e dê Enter..\n\nPara votar em Branco, digite 0 e dê Enter..\n\n");
-	            printf("\nNúmero: ");
+	            printf("Para votar no candidato A, digite 1 e dÃª Enter..\n\nPara votar no candidato B, digite 2 e dÃª Enter..\n\nPara votar no candidato C, digite 3 e dÃª Enter..\n\nPara votar em Branco, digite 0 e dÃª Enter..\n\n");
+	            printf("\nNÃºmero: ");
 	            scanf("%d", &n);
 		
 	            if(n==1) {
@@ -3341,20 +3338,20 @@ void eleicao8() { //Função auxiliar
 		        }
 		
 		        else if(n>3||n<-1) {
-			        printf("\nNúmero inválido\n\n");
+			        printf("\nNÃºmero invÃ¡lido\n\n");
 		        }
 	        }
 	    }
 	    
 		else {
-		    printf("\nCPF já utilizado\n\n");
+		    printf("\nCPF jÃ¡ utilizado\n\n");
 		    system("pause");
 		    system("cls");
 	    }
         }
     
 	    else {
-		    printf("\nCPF inválido\n\n");
+		    printf("\nCPF invÃ¡lido\n\n");
 		    system("pause");
 		    system("cls");
 	    }
@@ -3407,13 +3404,13 @@ void eleicao8() { //Função auxiliar
 	            cpfi[x]=cpf;
         
 		        if(v==1) {
-		            printf("\nCPF válido.\n\n");
+		            printf("\nCPF vÃ¡lido.\n\n");
 		            system("pause");
 		            system("CLS");
 		
 		            while(n>-1) {
-			            printf("Para votar no candidato A, digite 1 e dê Enter..\n\nPara votar no candidato B, digite 2 e dê Enter..\n\nPara votar em Branco, digite 0 e dê Enter.\n\n");
-			            printf("\nNúmero: ");
+			            printf("Para votar no candidato A, digite 1 e dÃª Enter..\n\nPara votar no candidato B, digite 2 e dÃª Enter..\n\nPara votar em Branco, digite 0 e dÃª Enter.\n\n");
+			            printf("\nNÃºmero: ");
 			            scanf("%d", &n);
 			
 			            if(n==1){
@@ -3441,7 +3438,7 @@ void eleicao8() { //Função auxiliar
 			            }  
 			
 			            else if (n>2||n<-1) {
-				            printf("\nNúmero já utilizado\n\n");
+				            printf("\nNÃºmero jÃ¡ utilizado\n\n");
 				            system("pause");
 				            system("CLS");
 			            }
@@ -3457,8 +3454,8 @@ void eleicao8() { //Função auxiliar
 		
 		            else {
 		                do {
-		                    printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dê Enter.\n\nPara escolher o candidato B, digite 2 e dê Enter.\n\n");
-		                    printf("\nNúmero: ");
+		                    printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dÃª Enter.\n\nPara escolher o candidato B, digite 2 e dÃª Enter.\n\n");
+		                    printf("\nNÃºmero: ");
 		                    scanf("%d", &n);
 		                    system("cls");
 			
@@ -3478,14 +3475,14 @@ void eleicao8() { //Função auxiliar
 		        }
 		        
 				else {
-		            printf("\nCPF já utilizado\n\n");
+		            printf("\nCPF jÃ¡ utilizado\n\n");
 		            system("pause");
                		system("cls");
 	            }
             }
 
             else {
-		        printf("\nCPF inválido\n\n");
+		        printf("\nCPF invÃ¡lido\n\n");
 		        system("pause");
            		system("cls");
 	        }
@@ -3520,13 +3517,13 @@ void eleicao8() { //Função auxiliar
 					cpfi[x]=cpf;
         
 		            if(v==1) {
-		                printf("\nCPF válido.\n\n");
+		                printf("\nCPF vÃ¡lido.\n\n");
 		                system("pause");
 		                system("CLS");
 		
 		                while(n>-1) {
-			                printf("Para votar no candidato A, digite 1 e dê Enter..\n\nPara votar no candidato B, digite 2 e dê Enter..\n\nPara votar em Branco, digite 0 e dê Enter.\n\n");
-                    		printf("\nNúmero: ");
+			                printf("Para votar no candidato A, digite 1 e dÃª Enter..\n\nPara votar no candidato B, digite 2 e dÃª Enter..\n\nPara votar em Branco, digite 0 e dÃª Enter.\n\n");
+                    		printf("\nNÃºmero: ");
 			                scanf("%d", &n);
 			
 			                if(n==1){
@@ -3554,7 +3551,7 @@ void eleicao8() { //Função auxiliar
 			                    }
 			
 			                else if (n>2||n<-1) {
-				                printf("\nNúmero já utilizado\n\n");
+				                printf("\nNÃºmero jÃ¡ utilizado\n\n");
 				                system("pause");
 				                system("CLS");
 			                }
@@ -3570,8 +3567,8 @@ void eleicao8() { //Função auxiliar
 		
 		                else {
 		                    do {
-		                        printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dê Enter.\n\nPara escolher o candidato B, digite 2 e dê Enter.\n\n");
-		                        printf("\nNúmero: ");
+		                        printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dÃª Enter.\n\nPara escolher o candidato B, digite 2 e dÃª Enter.\n\n");
+		                        printf("\nNÃºmero: ");
 		                        scanf("%d", &n);
 		                        system("cls");
 			
@@ -3591,14 +3588,14 @@ void eleicao8() { //Função auxiliar
             		}
 		            
 					else {
-		                printf("\nCPF já utilizado\n\n");
+		                printf("\nCPF jÃ¡ utilizado\n\n");
 		                system("pause");
 		                system("cls");
 	                    }
                     }
                     
 					else {
-		                printf("\nCPF inválido\n\n");
+		                printf("\nCPF invÃ¡lido\n\n");
 		                system("pause");
 		                system("cls");
                 	}
@@ -3633,13 +3630,13 @@ void eleicao8() { //Função auxiliar
 						cpfi[x]=cpf;
         
 		                if(v==1) {
-		                    printf("\nCPF válido.\n\n");
+		                    printf("\nCPF vÃ¡lido.\n\n");
 		                    system("pause");
 		                    system("CLS");
 		
 		                    while(n>-1) {
-			                    printf("Para votar no candidato A, digite 1 e dê Enter..\n\nPara votar no candidato C, digite 3 e dê Enter..\n\nPara votar em Branco, digite 0 e dê Enter.\n\n");
-			                    printf("\nNúmero: ");
+			                    printf("Para votar no candidato A, digite 1 e dÃª Enter..\n\nPara votar no candidato C, digite 3 e dÃª Enter..\n\nPara votar em Branco, digite 0 e dÃª Enter.\n\n");
+			                    printf("\nNÃºmero: ");
 			                    scanf("%d", &n);
 			
 			                    if(n==1){
@@ -3667,7 +3664,7 @@ void eleicao8() { //Função auxiliar
 			                    }
 			
 			                    else {
-				                    printf("\nNúmero já utilizado\n\n");
+				                    printf("\nNÃºmero jÃ¡ utilizado\n\n");
 				                    system("pause");
 				                    system("CLS");
 			                    }
@@ -3683,8 +3680,8 @@ void eleicao8() { //Função auxiliar
 		
                     		else {
 		                        do {
-		                            printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dê Enter.\n\nPara escolher o candidato C, digite 3 e dê Enter.\n\n");
-		                            printf("\nNúmero: ");
+		                            printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dÃª Enter.\n\nPara escolher o candidato C, digite 3 e dÃª Enter.\n\n");
+		                            printf("\nNÃºmero: ");
 		                            scanf("%d", &n);
 		                            system("cls");
 			
@@ -3704,14 +3701,14 @@ void eleicao8() { //Função auxiliar
 		                }
 		
 		                else {
-		                    printf("\nCPF já utilizado\n\n");
+		                    printf("\nCPF jÃ¡ utilizado\n\n");
 		                    system("pause");
                     		system("cls");
 	                    }
                     }
                     
 					else {
-		                printf("\nCPF inválido\n\n");
+		                printf("\nCPF invÃ¡lido\n\n");
 		                system("pause");
 		                system("cls");
 	                    }
@@ -3746,13 +3743,13 @@ void eleicao8() { //Função auxiliar
 									cpfi[x]=cpf;
         
 		                            if(v==1) {
-		                                printf("\nCPF válido.\n\n");
+		                                printf("\nCPF vÃ¡lido.\n\n");
 		                                system("pause");
 		                                system("CLS");
 		
                             		while(n>-1) {
-			                            printf("Para votar no candidato A, digite 1 e dê Enter..\n\nPara votar no candidato C, digite 3 e dê Enter..\n\nPara votar em Branco, digite 0 e dê Enter.\n\n");
-			                            printf("\nNúmero: ");
+			                            printf("Para votar no candidato A, digite 1 e dÃª Enter..\n\nPara votar no candidato C, digite 3 e dÃª Enter..\n\nPara votar em Branco, digite 0 e dÃª Enter.\n\n");
+			                            printf("\nNÃºmero: ");
 			                            scanf("%d", &n);
 			
 			                            if(n==1){
@@ -3780,7 +3777,7 @@ void eleicao8() { //Função auxiliar
 			                            }
 			
 			                            else {
-				                            printf("\nNúmero já utilizado\n\n");
+				                            printf("\nNÃºmero jÃ¡ utilizado\n\n");
 				                            system("pause");
 				                            system("CLS");
 			                            }
@@ -3796,8 +3793,8 @@ void eleicao8() { //Função auxiliar
 		
 		                            else {
 		                                do {
-		                                    printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dê Enter.\n\nPara escolher o candidato C, digite 3 e dê Enter.\n\n");
-		                                    printf("\nNúmero: ");
+		                                    printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dÃª Enter.\n\nPara escolher o candidato C, digite 3 e dÃª Enter.\n\n");
+		                                    printf("\nNÃºmero: ");
 		                                    scanf("%d", &n);
 		                                    system("cls");
 					                        
@@ -3817,14 +3814,14 @@ void eleicao8() { //Função auxiliar
 		                        }
 		                        
 								else {
-		                            printf("\nCPF já utilizado\n\n");
+		                            printf("\nCPF jÃ¡ utilizado\n\n");
 		                            system("pause");
 		                            system("cls");
 	                            }
                             }
                             
 							else {
-		                        printf("\nCPF inválido\n\n");
+		                        printf("\nCPF invÃ¡lido\n\n");
 		                        system("pause");
 		                        system("cls");
 	                        }
@@ -3859,13 +3856,13 @@ void eleicao8() { //Função auxiliar
 									cpfi[x]=cpf;
         
 		                            if(v==1) {
-		                                printf("\nCPF válido.\n\n");
+		                                printf("\nCPF vÃ¡lido.\n\n");
 		                                system("pause");
 		                                system("CLS");
 		
 		                                while(n>-1) {
-			                                printf("Para votar no candidato B, digite 2 e dê Enter..\n\nPara votar no candidato C, digite 3 e dê Enter..\n\nPara votar em Branco, digite 0 e dê Enter.\n\n");
-			                                printf("\nNúmero: ");
+			                                printf("Para votar no candidato B, digite 2 e dÃª Enter..\n\nPara votar no candidato C, digite 3 e dÃª Enter..\n\nPara votar em Branco, digite 0 e dÃª Enter.\n\n");
+			                                printf("\nNÃºmero: ");
 			                                scanf("%d", &n);
 			
 			                                if(n==1){
@@ -3893,7 +3890,7 @@ void eleicao8() { //Função auxiliar
 			                                }
 			
 			                                else {
-				                                printf("\nNúmero já utilizado\n\n");
+				                                printf("\nNÃºmero jÃ¡ utilizado\n\n");
 				                                system("pause");
 				                                system("CLS");
 			                                }
@@ -3909,8 +3906,8 @@ void eleicao8() { //Função auxiliar
 		
                                 		else {
 		                                    do {
-		                                        printf("Informe o candidato mais velho\n\nPara escolher o candidato B, digite 1 e dê Enter.\n\nPara escolher o candidato C, digite 3 e dê Enter.\n\n");
-		                                        printf("\nNúmero: ");
+		                                        printf("Informe o candidato mais velho\n\nPara escolher o candidato B, digite 1 e dÃª Enter.\n\nPara escolher o candidato C, digite 3 e dÃª Enter.\n\n");
+		                                        printf("\nNÃºmero: ");
 		                                        scanf("%d", &n);
 		                                        system("cls");
 			
@@ -3930,14 +3927,14 @@ void eleicao8() { //Função auxiliar
                             		}
 		                            
 									else {
-		                                printf("\nCPF já utilizado\n\n");
+		                                printf("\nCPF jÃ¡ utilizado\n\n");
 		                                system("pause");
 		                                system("cls");
 	                                }
                                 }
                                 
 								else {
-		                            printf("\nCPF inválido\n\n");
+		                            printf("\nCPF invÃ¡lido\n\n");
 		                            system("pause");
 		                            system("cls");
 	                            }
@@ -3972,13 +3969,13 @@ void eleicao8() { //Função auxiliar
 									cpfi[x]=cpf;
         
 		                            if(v==1) {
-		                                printf("\nCPF válido.\n\n");
+		                                printf("\nCPF vÃ¡lido.\n\n");
 		                                system("pause");
 		                                system("CLS");
 		
 		                                while(n>-1) {
-			                                printf("Para votar no candidato A, digite 1 e dê Enter..\n\nPara votar no candidato C, digite 3 e dê Enter..\n\nPara votar em Branco, digite 0 e dê Enter.\n\n");
-			                                printf("\nNúmero: ");
+			                                printf("Para votar no candidato A, digite 1 e dÃª Enter..\n\nPara votar no candidato C, digite 3 e dÃª Enter..\n\nPara votar em Branco, digite 0 e dÃª Enter.\n\n");
+			                                printf("\nNÃºmero: ");
 			                                scanf("%d", &n);
  			
 			                                if(n==1){
@@ -4006,7 +4003,7 @@ void eleicao8() { //Função auxiliar
 		                                    } 
 			
 	                                        else {
-		                                        printf("\nNúmero já utilizado\n\n");
+		                                        printf("\nNÃºmero jÃ¡ utilizado\n\n");
 				                                system("pause");
 				                                system("CLS");
 			                                }
@@ -4022,8 +4019,8 @@ void eleicao8() { //Função auxiliar
 		
                                 		else {
 		                                    do {
-		                                        printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dê Enter.\n\nPara escolher o candidato C, digite 3 e dê Enter.\n\n");
-		                                        printf("\nNúmero: ");
+		                                        printf("Informe o candidato mais velho\n\nPara escolher o candidato A, digite 1 e dÃª Enter.\n\nPara escolher o candidato C, digite 3 e dÃª Enter.\n\n");
+		                                        printf("\nNÃºmero: ");
 		                                        scanf("%d", &n);
 		                                        system("cls");
 			
@@ -4043,14 +4040,14 @@ void eleicao8() { //Função auxiliar
 		                            }
 		                            
 									else {
-		                                printf("\nCPF já utilizado\n\n");
+		                                printf("\nCPF jÃ¡ utilizado\n\n");
 		                                system("pause");
 		                                system("cls");
 	                                }
                                 }
                                 
 								else {
-		                            printf("\nCPF inválido\n\n");
+		                            printf("\nCPF invÃ¡lido\n\n");
 		                            system("pause");
 		                            system("cls");
 	                            }
